@@ -454,7 +454,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.1_r1" />
 
   <!-- Fusion -->
-  <project path="build" name="android_kitkat_build" groups="pdk" remote="fusion" revision="cm-11.0" >
+  <project path="build" name="android_kitkat_build" groups="pdk" remote="dragon" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android_kitkat" remote="dragon" revision="cm-11.0" />
