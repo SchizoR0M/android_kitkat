@@ -345,7 +345,6 @@
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" />
@@ -475,6 +474,7 @@
   <project path="packages/providers/ContactsProvider" name="android_kitkat_packages_providers_ContactsProvider" remote="dragon" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="android_kitkat_packages_services_Telephony" remote="dragon" revision="cm-11.0" />
   <project path="system/core" name="android_kitkat_system_core" groups="pdk" remote="dragon" revision="cm-11.0" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="dragon" />
   <project path="vendor/fusion" name="android_kitkat_vendor_fusion" remote="dragon" revision="cm-11.0" >
     <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
   </project>
