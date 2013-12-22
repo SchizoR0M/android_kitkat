@@ -40,7 +40,6 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
-  <project path="development" name="android_development" remote="cm" />
   <project path="device/common" name="android_device_common" remote="cm" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="cm" />
@@ -453,6 +452,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android_kitkat" remote="dragon" revision="cm-11.0" />
+  <project path="development" name="android_kitkat_development" remote="dragon" />
   <project path="frameworks/av" name="android_kitkat_frameworks_av" groups="pdk" remote="dragon" />
   <project path="frameworks/base" name="android_kitkat_frameworks_base" remote="dragon" revision="cm-11.0" />
   <project path="frameworks/native" name="android_kitkat_frameworks_native" groups="pdk" remote="dragon" revision="cm-11.0" />
