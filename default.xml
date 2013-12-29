@@ -333,7 +333,6 @@
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
@@ -474,6 +473,7 @@
   <project path="packages/providers/MediaProvider" name="android_kitkat_packages_providers_MediaProvider" remote="dragon" />
   <project path="packages/services/Telephony" name="android_kitkat_packages_services_Telephony" remote="dragon" revision="cm-11.0" />
   <project path="system/core" name="android_kitkat_system_core" groups="pdk" remote="dragon" revision="cm-11.0" />
+  <project path="system/media" name="android_kitkat_system_media" groups="pdk" remote="dragon" />
   <project path="system/vold" name="android_kitkat_system_vold" groups="pdk" remote="dragon" />
   <project path="vendor/fusion" name="android_kitkat_vendor_fusion" remote="dragon" revision="cm-11.0" >
     <copyfile src="tools/build-fusion.sh" dest="build-fusion.sh" />
