@@ -30,6 +30,10 @@
   <remote  name="ChameleonOS"
            fetch="https://github.com/ChameleonOS"
            review="review.chameleonos.org" />
+           
+  <remote  name="SlimRoms"
+           fetch="https://github.com/SlimRoms"
+           review="https://gerrit.slimroms.net/" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
@@ -486,6 +490,9 @@
   
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat" />
+
+  <!-- Google play services -->
+  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
