@@ -485,7 +485,7 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
   
   <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat-staging" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat" />
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
