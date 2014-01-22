@@ -469,6 +469,7 @@
   <project path="packages/apps/FusionBox" name="android_kitkat_packages_apps_FusionBox" remote="dragon" />
   <project path="packages/apps/Fusionlauncher" name="android_kitkat_packages_apps_Fusionlauncher" remote="dragon" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="android_kitkat_packages_apps_Gallery2" remote="dragon" />
+  <project path="packages/apps/HALO" name="HALO-kitkat" remote="dragon" />
   <project path="packages/apps/InCallUI" name="android_kitkat_packages_apps_InCallUI" remote="dragon" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_kitkat_packages_apps_Mms" remote="dragon" revision="cm-11.0" />
   <project path="packages/apps/PackageInstaller" name="android_kitkat_packages_apps_PackageInstaller" remote="dragon" revision="cm-11.0" />
