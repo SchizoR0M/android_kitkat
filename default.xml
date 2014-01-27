@@ -318,7 +318,6 @@
   <project path="packages/inputmethods/PinyinIME" name="android_packages_inputmethods_PinyinIME" remote="cm" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" />
@@ -479,6 +478,7 @@
   <project path="packages/apps/UnifiedEmail" name="android_kitkat_packages_apps_UnifiedEmail" remote="dragon" />
   <project path="packages/inputmethods/LatinIME" name="android_kitkat_packages_inputmethods_LatinIME" remote="dragon" revision="cm-11.0" />
   <project path="packages/providers/ContactsProvider" name="android_kitkat_packages_providers_ContactsProvider" remote="dragon" revision="cm-11.0" />
+  <project path="packages/providers/DownloadProvider" name="android_kitkat_packages_providers_DownloadProvider" remote="dragon" />
   <project path="packages/providers/MediaProvider" name="android_kitkat_packages_providers_MediaProvider" remote="dragon" />
   <project path="packages/services/Telephony" name="android_kitkat_packages_services_Telephony" remote="dragon" revision="cm-11.0" />
   <project path="system/core" name="android_kitkat_system_core" groups="pdk" remote="dragon" revision="cm-11.0" />
