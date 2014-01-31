@@ -34,6 +34,10 @@
   <remote  name="SlimRoms"
            fetch="https://github.com/SlimRoms"
            review="https://gerrit.slimroms.net/" />
+           
+  <remote name="omnirom"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
@@ -494,6 +498,9 @@
   
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat" />
+
+  <!-- Omni -->
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.4" />
 
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
